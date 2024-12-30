@@ -72,10 +72,13 @@ const Application = () => {
         if (key !== "resume") emailFormData.append(key, value);
       });
 
-      const response = await fetch("http://localhost:5000/send-email", {
-        method: "POST",
-        body: emailFormData,
-      });
+      const response = await fetch(
+        "https://pending-oo5r.onrender.com/send-email",
+        {
+          method: "POST",
+          body: emailFormData,
+        }
+      );
 
       if (response.ok) {
         setPopupMessage("Application submitted successfully!");
