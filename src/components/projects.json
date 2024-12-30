@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Anon : E-commerce website",
+    "technologies": "An e-commerce platform featuring secure payments and an intuitive user interface.",
+    "image": "Anon"
+  },
+  {
+    "title": "Loruki : Web Hosting Service",
+    "technologies": "A reliable website hosting service offering fast, secure, and scalable solutions.",
+    "image": "Loruki"
+  },
+  {
+    "title": "Carls : A Restaurant website",
+    "technologies": "A dynamic restaurant website with online menu, reservations, and location features.",
+    "image": "Restarent"
+  },
+  {
+    "title": "Anon : E-commerce website",
+    "technologies": "An e-commerce platform featuring secure payments and an intuitive user interface.",
+    "image": "Anon"
+  },
+  {
+    "title": "Loruki : Web Hosting Service",
+    "technologies": "A reliable website hosting service offering fast, secure, and scalable solutions.",
+    "image": "Loruki"
+  },
+  {
+    "title": "Carls : A Restaurant website",
+    "technologies": "A dynamic restaurant website with online menu, reservations, and location features.",
+    "image": "Restarent"
+  }
+]
