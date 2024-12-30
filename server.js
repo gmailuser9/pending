@@ -8,10 +8,13 @@ const fs = require("fs");
 dotenv.config(); // Load environment variables from .env file
 
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000; // Use dynamic port in production (Render)
 
-// Middleware to handle CORS and JSON parsing
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://pending-oo5r.onrender.com", // Replace with your actual frontend URL on Render
+  })
+);
 app.use(express.json());
 
 // Setup Multer for handling file uploads
@@ -125,5 +128,5 @@ app.post("/send-email", upload.single("resume"), async (req, res) => {
 
 // Start the server
 app.listen(port, () => {
-  console.log(`Server running on http://localhost:${port}`);
+  console.log(`Server running on port ${port}`);
 });
