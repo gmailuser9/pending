@@ -73,7 +73,7 @@ const Application = () => {
       });
 
       const response = await fetch(
-        "https://pending-oo5r.onrender.com/send-email",
+        "https://server-ryah.onrender.com/send-email",
         {
           method: "POST",
           body: emailFormData,
